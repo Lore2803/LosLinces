@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Agrupación Los Linces</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <!--TIPOGRAFIA-->
+        <link href="https://fonts.googleapis.com/css2?family=Average+Sans&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <!--LOGO-->
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Vector Ink Export.svg" alt="" width="100" height="auto"class="d-inline-block align-text-top">
+                </a>
+                <!--NAV-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                        <a class="nav-link" href="index.html #nosotros">NOSOTROS</a>
+                        <a class="nav-link" href="escuelas.html">ESCUELAS</a>
+                        <a class="nav-link" href="contacto.html">CONTACTO</a>
+                        <a class="nav-link" href="eventos.html">EVENTOS</a>
+                        </div>
+                    </div>
+                    </div>
+                </nav>
+            </nav>
+        </div>
+        </header>
+<!--FORMULARIO DE INSCRIPCION A LAS ESCUELAS-->
+<article>
+    <section id="inscripcionNiños">
+        <div class="container">
+            <h3>Inscripcion</h3>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col">
+                    <input type="number" class="form-control" placeholder="Edad" aria-label="Edad">
+                </div>
+                <div class="col">
+                    <input type="number" class="form-control" placeholder="DNI" aria-label="DNI" min="0" max="999999999">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Telefono" aria-label="Telefono de contacto">
+                </div>
+            </div><br>
+            <div class="col">
+                <input class="form-control" type="text" placeholder="Indique si posee alguna enfermedad o alergias" aria-label="default input example">
+            </div><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="actividadFisica" class="form-label">¿Realiza actividad fisica actualmente?</label>
+                    <select id="actividadFisica" class="form-select">
+                    <option selected>Seleccionar</option>
+                    <option>Si</option>
+                    <option>No</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="certificadoSalud" class="form-label">Si posee certificado de buena salud puede cargarlo aqui</label>
+                    <input class="form-control" type="file" id="formFile">
+                </div>
+            </div><br><br>
+            <h3>Contacto de emergencia</h3>
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Telefono" aria-label="Telefono de contacto">
+                </div>
+            </div><br><hr>
+            <div class="row">
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                </div>
+            </div>
+        </div>  
+    </section>
+</article>
+<!--FOOTER-->
+<footer class="container p-4 rounded"><br><hr>
+    <div class="d-lg-flex justify-content-between">
+    <!--MAPA DEL SITIO-->
+    <div>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="index.html #nosotros">NOSOTROS</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="escuelas.html">ESCUELAS</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="eventos.html">EVENTOS</a>
+            </li>
+        </ul>
+    </div>
+        <!--CONTACTO-->
+    <div class="copyright">
+        <ul type="none">
+            <li>TELEFONO</li>
+            <li>LUGAR</li>
+        </ul>
+    </div>
+        <!--REDES-->
+    <div>
+        <ul class="d-flex gap-3 list-unstyled">
+            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
+            <li><a href="#"><i class="bi bi-twitter"></i></a></li>
+            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
